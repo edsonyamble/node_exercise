@@ -10,7 +10,7 @@ map.set('name', 'Kcenea')
 map.set('years', 28)
 const edson = { name: 'edson' }
 map.set(edson, 'object edson in map ')
-console.log(map)
+console.log(map.keys)
 // new Map() – создаёт коллекцию.
 // map.set(key, value) – записывает по ключу key значение value.
 // map.get(key) – возвращает значение по ключу или undefined, если ключ key отсутствует.
